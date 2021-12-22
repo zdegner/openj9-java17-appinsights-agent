@@ -1,0 +1,8 @@
+CREATE TABLE [HELLO] (
+  [HelloID] [bigint] PRIMARY KEY NOT NULL,
+  [Name] [nvarchar] (64) NOT NULL
+) ON [PRIMARY]
+GO
+
+INSERT INTO HELLO VALUES (1, 'Hello')
+GO

@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: openj9Java17AppinsightsAgent
+
+datasources:
+  default:
+    url: "jdbc:sqlserver://host.docker.internal:1433;databaseName=MyApp"
+    username: sa
+    password: yourStrong@@@Password
+    driverClassName: 'com.microsoft.sqlserver.jdbc.SQLServerDriver'
+
+flyway:
+  datasources:
+    default:
+      enabled: true
